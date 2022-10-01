@@ -14,7 +14,7 @@ int maxCount = 0;
 
 while(end!=arr.length){
 currentCount+=arr[end];
-if((end-start+1)==arr.length){
+if((end-start+1)==totalCount){
     maxCount = Math.max(currentCount, maxCount);
     if(arr[start]==1){
         currentCount--;
